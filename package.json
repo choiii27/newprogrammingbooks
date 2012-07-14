@@ -6,6 +6,6 @@
   	"express": "latest"
   },
   "engines": {
-    "node": "0.8.x"
+    "node": "0.6.x"
   }
 }
