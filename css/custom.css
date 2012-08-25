@@ -1,0 +1,110 @@
+#container{
+	width:550px;
+	margin:0 auto;
+}
+.container{
+	margin-top:5px;
+}
+.container h1{
+	margin-bottom:5px;
+}
+.images {
+	float:left;
+	margin-left:15px;
+}
+.information{
+	float:left;
+	width:350px;
+	margin-left:45px;
+}
+.information p{
+	line-height:100%;
+}
+.center{
+	margin:0 auto;
+}
+
+span.bold {
+	font-weight:bold;
+}
+a.awesome:active{
+	top:1px;
+}
+a.awesome{
+	margin-top:5px;
+	background: #8b9dc3;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 1px #222;
+	border-bottom: 1px solid #222;
+	position: relative;
+	cursor: pointer;
+	font-family:"Helvetica Neue", Arial;
+}
+.discover{
+	font-size:16px;
+	font-family:Georgia, Helvetica, Arial;
+	line-height: 24px;
+}
+div.sep{
+	border-top:10px solid #f7f7f7;
+	margin-bottom:5px;
+}
+a.share{
+	background: #3b5998;
+	margin-top:-5px;
+	line-height: 1;
+	padding: 5px 10px 6px;
+}
+div.social{
+	float:left;
+	width:120px;
+	height:50px;
+	margin-top:10px;
+}
+.facebookshare{
+	margin-top:13px;
+	float:left;
+}
+
+.top_social{
+	float:right;
+}
+
+/*      Social Buttons 
+        Version 0.1
+        Made by Paul Schaefer
+        Date: 4/13/11 */
+/* Facebook */
+a.facebook {
+        background:#3B5998;
+        color:#FFF;
+        font:16px Helvetica, Arial, sans-serif;
+        margin-right:30px;
+        padding:10px 28px;
+        text-decoration:none;
+        text-shadow:1px 1px 1px #627AAD;
+        box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD, -3px 3px 0 #627AAD;
+        -moz-box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD, -3px 3px 0 #627AAD;
+        -webkit-box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD, -3px 3px 0 #627AAD;
+        -o-box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD, -3px 3px 0 #627AAD;}
+
+a.facebook:hover {background:#627AAD;}
+
+a.facebook:active {
+        position:relative;
+        left:-1px;
+        top:1px;
+        box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD;
+        -moz-box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD;
+        -webkit-box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD;
+        -o-box-shadow:-1px 1px 0 #627AAD, -2px 2px 0 #627AAD;}

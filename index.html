@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Ember.js Books </title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" char="utf-8" />
+		<script type="text/javascript" src="../libs/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../libs/ember-1.0.pre.min.js"></script>
+		<script type="text/javascript" src="book.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<script type="text/x-handlebars">
+				<h2> Books </h2>
+				{{#each App.booksController}}
+						<div class="images">
+							{{#view App.ImgView}}
+								<img {{bindAttr src="thumbnail"}}>
+							{{/view}}
+						</div>
+						<div class="info">
+							<a href={{url}}> {{title}} </a><br/>
+							<p>
+								<span class="bold"> Prices: </span> {{price}} <br/>
+								<span class="bold"> Publisher: </span> {{publisher}} <br/>
+								<span class="bold"> Author: </span> {{author}} <br/>
+								<span class="bold"> Release Date: </span> {{date}} <br/>
+								<span class="bold"> ISBN: </span> {{isbn}} <br/>
+							</p>
+						</div>
+				{{/each}}
+			</script>
+			
+		</div>
+	</body>
+</html>
